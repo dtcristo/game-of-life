@@ -5,3 +5,7 @@ authors = ["David Cristofaro <david@dtcristo.com>"]
 
 [dependencies]
 ggez = "0.4"
+
+[[bin]]
+name = "game_of_life"
+path = "src/game_of_life.rs"
