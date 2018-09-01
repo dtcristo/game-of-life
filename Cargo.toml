@@ -1,0 +1,7 @@
+[package]
+name = "ggez-demos"
+version = "0.1.0"
+authors = ["David Cristofaro <david@dtcristo.com>"]
+
+[dependencies]
+ggez = "0.4"
