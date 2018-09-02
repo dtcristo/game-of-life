@@ -7,9 +7,10 @@ use ggez::event::{Keycode, Mod, MouseButton, MouseState};
 use ggez::graphics::{DrawMode, Rect};
 use ggez::{event, graphics, mouse, Context, ContextBuilder, GameResult};
 
-const GRID_SIZE: (usize, usize) = (40, 40);
-const GRID_CELL_SIZE: (usize, usize) = (20, 20);
+const GRID_SIZE: (usize, usize) = (32, 24);
+const GRID_CELL_SIZE: (usize, usize) = (25, 25);
 
+// 800 x 600
 const SCREEN_SIZE: (u32, u32) = (
     GRID_SIZE.0 as u32 * GRID_CELL_SIZE.0 as u32,
     GRID_SIZE.1 as u32 * GRID_CELL_SIZE.1 as u32,
