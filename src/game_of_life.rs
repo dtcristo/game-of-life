@@ -50,7 +50,7 @@ impl Board {
         let mut new_grid = [[false; GRID_SIZE.1]; GRID_SIZE.0];
         for x in 0..GRID_SIZE.0 {
             for y in 0..GRID_SIZE.1 {
-                let alive = self.cell(x, y);
+                let alive = self.grid[x][y];
                 let neighbours = self.neighbours(x, y);
                 new_grid[x][y] = if alive {
                     neighbours == 2 || neighbours == 3
