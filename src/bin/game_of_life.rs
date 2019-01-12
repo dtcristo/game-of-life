@@ -1,5 +1,3 @@
-extern crate ggez;
-
 use std::time::{Duration, Instant};
 
 use ggez::conf::{WindowMode, WindowSetup};

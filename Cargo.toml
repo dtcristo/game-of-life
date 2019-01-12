@@ -2,10 +2,7 @@
 name = "ggez-demos"
 version = "0.1.0"
 authors = ["David Cristofaro <david@dtcristo.com>"]
+edition = "2018"
 
 [dependencies]
 ggez = "0.4"
-
-[[bin]]
-name = "game_of_life"
-path = "src/game_of_life.rs"
