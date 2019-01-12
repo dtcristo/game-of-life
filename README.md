@@ -14,10 +14,14 @@ Interactive implementation of [Conway's Game of Life](https://en.wikipedia.org/w
 
 Controls:
 
-* Left-click spawns a cell
-* Right-click kills a cell
-* Space pauses and resumes the simulation
-* Escape quits
+- Left-click spawns a cell
+- Right-click kills a cell
+- Space pauses and resumes the simulation
+- Escape quits
+
+Screenshot:
+
+![screenshot](images/game_of_life.png)
 
 ## License
 
