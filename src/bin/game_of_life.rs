@@ -205,13 +205,13 @@ impl event::EventHandler for GameState {
 }
 
 fn main() {
-    let ctx = &mut ContextBuilder::new("game_of_life", "dtcristo")
+    let mut ctx = ContextBuilder::new("game_of_life", "dtcristo")
         .window_setup(WindowSetup::default().title("game_of_life"))
         .window_mode(WindowMode::default().dimensions(SCREEN_SIZE.0, SCREEN_SIZE.1))
         .build()
         .expect("Failed to build ggez context");
-    let state = &mut GameState::new();
-    match event::run(ctx, state) {
+    let mut state = GameState::new();
+    match event::run(&mut ctx, &mut state) {
         Ok(_) => println!("Game exited cleanly!"),
         Err(e) => println!("Error encountered running game: {}", e),
     }
