@@ -1,27 +1,22 @@
-# ggez-demos
+# game-of-life
 
-Demos using [ggez](http://ggez.rs/).
+Interactive implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway's_Game_of_Life)
+using [ggez](http://ggez.rs/).
 
-Run each demo with:
+![screenshot](images/screenshot.png)
+
+## Installation
 
 ```sh
-cargo run --bin demo_name
+cargo run
 ```
 
-## game_of_life
-
-Interactive implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway's_Game_of_Life).
-
-Controls:
+## Controls
 
 - Left-click spawns a cell
 - Right-click kills a cell
 - Space pauses and resumes the simulation
 - Escape quits
-
-Screenshot:
-
-![screenshot](images/game_of_life.png)
 
 ## License
 

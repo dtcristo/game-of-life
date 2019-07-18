@@ -1,5 +1,5 @@
 [package]
-name = "ggez-demos"
+name = "game-of-life"
 version = "0.1.0"
 authors = ["David Cristofaro <david@dtcristo.com>"]
 edition = "2018"

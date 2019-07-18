@@ -205,8 +205,8 @@ impl event::EventHandler for GameState {
 }
 
 fn main() {
-    let mut ctx = ContextBuilder::new("game_of_life", "dtcristo")
-        .window_setup(WindowSetup::default().title("game_of_life"))
+    let mut ctx = ContextBuilder::new("game-of-life", "dtcristo")
+        .window_setup(WindowSetup::default().title("game-of-life"))
         .window_mode(WindowMode::default().dimensions(SCREEN_SIZE.0, SCREEN_SIZE.1))
         .build()
         .expect("Failed to build ggez context");
