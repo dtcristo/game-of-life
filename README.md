@@ -1,9 +1,12 @@
-# game-of-life
-
-Interactive implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway's_Game_of_Life)
-using [ggez](http://ggez.rs/).
-
-![screenshot](images/screenshot.png)
+<div align="center">
+<h1>game-of-life</h1>
+  <p>
+    <strong>
+      Interactive implementation of <a href="https://en.wikipedia.org/wiki/Conway's_Game_of_Life">Conway's Game of Life</a> using <a href="http://ggez.rs/">ggez</a>
+    </strong>
+  </p>
+  <img src="images/screenshot.png" alt="screenshot" />
+</div>
 
 ## Installation
 
